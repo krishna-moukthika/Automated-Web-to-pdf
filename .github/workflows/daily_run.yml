@@ -22,4 +22,4 @@ jobs:
           pip install -r requirements.txt || true
 
       - name: Run Python script
-        run: automated-web-to-pdf.py
+        run: automated_web_to_pdf.py
